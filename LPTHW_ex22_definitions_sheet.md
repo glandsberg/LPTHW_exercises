@@ -1,4 +1,4 @@
-# H1 What do you know so far?
+# What do you know so far?
 
 | Term, method,character      | Definition          | Example |
 | ------------- |:-------------:| -----:|
