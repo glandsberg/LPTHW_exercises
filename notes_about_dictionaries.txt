@@ -1,0 +1,57 @@
+# notes about dictionaries 
+"""
+it's a way to store data like a list
+but instead of only using numbers to get the data, you can use anything
+the Dictionary data structure in python lets you treat a dict like it's a database for:
+	organizing and storing data
+	
+example of a list in python: 
+
+things = ['a', 'b', 'c', 'd']
+print(things[1])
+b
+
+things[1] = 'z'
+print(things[1])
+z
+
+things
+['a', 'z', 'c', 'd']
+
+you can only use numbers to get things in lists
+
+example of using a dictionary instead:
+
+stuff = {'name': 'Zed', 'age': 39, 'height': 6 * 12 +2}
+print(stuff['name'])
+Zed
+
+print(stuff['age'])
+39
+
+print(stuff['height'])
+74
+
+stuff['city'] = "SF"
+print(stuff['city'])
+SF
+
+^^^ you can see that instead of using numbers to call the location of something like we have to in lists,
+in dictionaries we can call using strings. it doesn't have to be strings though. We can also do this:
+
+stuff[1] = "Wow"
+stuff[2] = "Neato"
+print(stuff[1])
+Wow
+print(stuff[2])
+Neato
+
+ok and then here's how to delete things:
+
+del stuff['city']
+del stuff[1]
+del stuff[2]
+stuff
+{'name': 'Zed', 'age': 39, 'height': 74}
+
+"""

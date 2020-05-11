@@ -1,0 +1,12 @@
+# page 160 - Designing and Debugging
+there's no need for an else if there's no if
+# ^ you will get an error
+"""
+the bear game uses exit(0) to quit the program but instead we can also use "die"
+actually not a thing
+
+if you feel the need to use multiples conditionals the and or or is more helpful
+
+you can break out of a for-loop using the "break" command
+the exit command exits the program
+but break just breaks out of the loop
